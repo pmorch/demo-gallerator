@@ -3,7 +3,7 @@ echo Generating gallery "Standard"
 gallerator --name-of-gallery Standard --gallery standard-gallery media
 
 echo Generating gallery "Recursive"
-gallerator --name-of-gallery Recursive --gallery recursive-gallery media \
+gallerator --name-of-gallery Gallery --gallery recursive-gallery media \
     --recursive
 
 echo Generating gallery "Pagination"

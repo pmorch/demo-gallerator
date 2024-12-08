@@ -31,7 +31,7 @@ Here the `--recursive` has been added, so:
 
 <!-- gallery:Recursive -->
 ```
-gallerator --name-of-gallery Recursive --gallery recursive-gallery media \
+gallerator --name-of-gallery Gallery --gallery recursive-gallery media \
     --recursive
 ```
 
