@@ -1,5 +1,11 @@
 # Demo of gallerator
 
+To see the galleries actually render, view this page as:
+[https://pmorch.github.io/deleteme-demo-gallerator/](https://pmorch.github.io/demo-gallerator/).
+
+To see the galleries as source code, view this page as:
+[https://github.com/pmorch/deleteme-demo-gallerator](https://github.com/pmorch/demo-gallerator).
+
 ## The demos
 
 In the following the `--name-of-gallery` argument was passed to every demo, but
