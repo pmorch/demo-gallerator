@@ -9,7 +9,7 @@ we'd like to easily be able to distinguish them.
 
 ### Standard gallery
 
-[Standard gallery](standard-gallery/)
+[Demo of standard gallery](standard-gallery/)
 
 This is the gallery you get out of the box with just
 
@@ -25,39 +25,39 @@ same height: `--height`, but the width can differ:
 
 ### Recursive gallery
 
-[Recursive](recursive-gallery/)
+[Demo of recursive gallery](recursive-gallery/)
 
 Here the `--recursive` has been added, so:
 
 <!-- gallery:Recursive -->
 ```
-gallerator --name-of-gallery Recursive  --gallery recursive-gallery media \
+gallerator --name-of-gallery Recursive --gallery recursive-gallery media \
     --recursive
 ```
 
 ### Pagination gallery
 
-[Pagination](pagination-gallery/)
+[Demo of pagination gallery](pagination-gallery/)
 
 Here the `--pagination 20` has been added, so there are maximum 20 images on
 each "page" with the last page perhaps having fewer:
 
 <!-- gallery:Pagination -->
 ```
-gallerator --name-of-gallery Pagination  --gallery pagination-gallery media \
+gallerator --name-of-gallery Pagination --gallery pagination-gallery media \
     --pagination 20
 ```
 
 ### Auto-grid gallery
 
-[Auto-grid](auto-grid-gallery/)
+[Demo of auto-grid gallery](auto-grid-gallery/)
 
 Here the `--auto-grid` has been added, resulting in a page where all thumbnails
 are constrained within a container of width: `--width` and height: `--height`:
 
 <!-- gallery:Auto grid -->
 ```
-gallerator --name-of-gallery Auto-grid  --gallery auto-grid-gallery media \
+gallerator --name-of-gallery Auto-grid --gallery auto-grid-gallery media \
     --auto-grid
 ```
 
@@ -65,7 +65,7 @@ gallerator --name-of-gallery Auto-grid  --gallery auto-grid-gallery media \
 
 ### Nameless auto-grid gallery
 
-[Nameless auto-grid](nameless-auto-grid-gallery/)
+[Demo of nameless auto-grid gallery](nameless-auto-grid-gallery/)
 
 Here both `--auto-grid` and `--no-filename-captions` have been added, resulting
 in a page where all thumbnails are constrained within a container of width:
@@ -74,7 +74,7 @@ gives a cleaner look to the grid layouts.
 
 <!-- gallery:Nameless auto-grid -->
 ```
-gallerator --name-of-gallery "Nameless auto-grid"  --gallery nameless-auto-grid-gallery media \
+gallerator --name-of-gallery "Nameless auto-grid" --gallery nameless-auto-grid-gallery media \
     --auto-grid --no-filename-captions
 ```
 
@@ -82,7 +82,7 @@ gallerator --name-of-gallery "Nameless auto-grid"  --gallery nameless-auto-grid-
 
 ### Grid gallery
 
-[Grid](grid-gallery/)
+[Demo of 3x3 grid gallery](grid-gallery/)
 
 Here a `--grid 3x3` has been added, resulting in a page 3 columns of 3 rows of
 thumbnails are constrained within a container of width: `--width` and height:
@@ -90,7 +90,7 @@ thumbnails are constrained within a container of width: `--width` and height:
 
 <!-- gallery:3x3 Grid -->
 ```
-gallerator --name-of-gallery "3x3 Grid"  --gallery grid-gallery media \
+gallerator --name-of-gallery "3x3 grid" --gallery grid-gallery media \
     --grid 3x3
 ```
 

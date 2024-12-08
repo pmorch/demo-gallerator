@@ -20,7 +20,7 @@ galleries: doc-scripts/generation-commands.sh
 	@echo Generating Galleries
 	$(ECHO) bash ./doc-scripts/generation-commands.sh
 
-doc-scripts/generation-commands.sh: doc-scripts/extract-generation-commands.py
+doc-scripts/generation-commands.sh: doc-scripts/extract-generation-commands.py README.md
 	@echo Creating doc-scripts/generation-commands.sh
 	$(ECHO) python3 doc-scripts/extract-generation-commands.py README.md > \
 		doc-scripts/generation-commands.sh
